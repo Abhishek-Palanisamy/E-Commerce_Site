@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main_container{
+    border: 1px solid black;
+    width:20%;
+    margin-top: 10%;
+    margin-left: 40%;
+}
+.login-container{
+    padding:0px 0px 8px 8px;
+}
+.login-button{
+    margin-top: 6%;
+    margin-left: 40%;
+}
+.login-field{
+    padding: 5px 0 0 0;
+}
+.login-header{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 32%;
+}
+
+
+/* Signup css */
+.main_container1{
+    border: 1px solid black;
+    margin-left: 36%;
+    margin-top: 10%;
+    width: 30%;
+}
+.signup-header{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 30%;
+}
+.signup-container{
+    padding-left: 10%;
+}
+.signup-field{
+    padding: 5px 0 0 0;
+}
+.signup-button{
+    margin-top: 3%;
+    margin-left: 30%;
+    margin-bottom: 4%;
+}
+
+
+/*HomePage*/
+.main_container2{
+    background-color:rgb(247, 244, 244);
+    padding-bottom: 1%;
+}
+.homepage_container-enclosure{
+    margin-left: 3%;
+}
+.header-main{
+    margin-top: 1%;
+}
+.header-main1{
+    display: block;
+        font-size: 1.2em;
+        color:black;
+        font-weight: bold;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+.fruits_list{
+    padding: 4px;
+    margin-top: 5px;
+    margin-left: 6%;
+    width: 11.5%;
+}
+.fruits-container{
+    display: flex;
+}
+.fruit-name{
+    text-align: center;
+    font-size:large ;
+    display: block;
+    font-size: 1.17em;
+    color: black;
+    font-weight: bold; 
+    .strike{
+        text-decoration: line-through;
+        font-size:x-small;
+    }
+}
+.carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1350px;
+    height: 300px;
+    margin-left: 5%;
+    margin-top: 2px;
+    z-index: 1;
+  }
+  .slide {
+    border-radius: 0.5rem;
+    width: 100%;
+    height: 100%;
+  }
+  .slide-hidden {
+    display: none;
+  }
+  .arrow {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    color: white;
+  }
+  .arrow:hover {
+    cursor: pointer;
+  }
+  .arrow-left {
+    left: 1rem;
+  }
+  .arrow-right {
+    right: 1rem;
+  }
+  .indicators {
+    display: flex;
+    position: absolute;
+    bottom: 1rem;
+  }
+  .indicator {
+    background-color: white;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px #555;
+    margin: 0 0.2rem;
+    cursor: pointer;
+  } 
+  .indicator-inactive {
+    background-color: grey;
+  }
+
+
+  /*Fruits Description*/
+  .list-enclosure2{
+    display: flex;
+  }
+  .header-main2{
+    display: block;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-left: 1%;
+}
+.fruits_list2{
+    margin-top:1rem;
+    margin-left: 3%;
+    width: 30%;
+    border: 1px solid white;
+    border-radius: 16px;
+    padding: 1.2%;
+    box-shadow: 2px 2px 2px rgb(166, 165, 165);
+}
+.fruits-container2{
+    display: flex;
+    gap: 1rem;
+    
+}
+.fruit-name2{
+    font-size:large ;
+    display: block;
+    font-size: 1.17em;
+    color: black;
+    font-weight: bold; 
+    .strike{
+        text-decoration: line-through;
+        font-size:x-small;
+    }
+}
+#shipping-icon{
+    font-size: smaller;
+    margin-left: 68%;
+    color: #c0bfbf;
+padding-top: 7%;    
+padding-bottom: 7%;
+}
+.timing{
+    margin-left: 1%;
+    font-size: small;
+}
+.addbtn{
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 3px 3px 3px #ababab;
+    font-size: large;
+    margin-top: 10%;
+    border-radius: 19px;
+    width: 100%;
+    padding: 3%;
+    background-color:white;
+    border-color: white;
+}
+.fresho{
+    color: #777777;
+    font-weight: 500;
+}
+.price{
+    margin-top: 7%;
+}
+.plussymbol{
+    margin-left: 65%;
+}
+
+
+
+
+.lists-description-enclosure{
+    display: flex;
+}
+.subcategory{
+    padding-top: 10px;
+    margin: 0 0 0 10px;
+}
+.category{
+    font-weight: bolder;
+    font-size: larger;
+}
+.category-menu{
+  
+    margin: 1.6rem 0 0 2rem;
+    border: 1px solid;
+    border-color: #b7b6b6;
+    padding: 6%;
+    border-radius: 20px;
+}
+.flex-container{
+width: 15%;
+}
+
+.banners{
+    margin-top: 1px;
+    margin-left: 2.3%;
+    height: 300px;
+    width: 1200px;
+    border-radius: 19px;
+}
+.list{
+    color: black;
+    padding: 10px;
+}
+
+.list:hover{
+    font-weight: bolder;
+}
+.carousel1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height:300px;
+    margin-left: 8px;
+    margin-top: 5px;
+    z-index: 1;
+  }
+  .slide {
+    border-radius: 0.5rem;
+    width: 100%;
+    height: 100%;
+  }
+  .slide-hidden {
+    display: none;
+  }
+
+
+  .indicators1 {
+    display: flex;
+    position: absolute;
+    bottom: 1rem;
+  }
+  .indicator1 {
+    background-color: white;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px #555;
+    margin: 0 0.2rem;
+    cursor: pointer;
+  } 
+  .indicator1-inactive {
+    background-color: grey;
+  }
+.ads-banner{
+    display: flex;
+}
+  .subcategory a {
+    display: block; 
+    padding: 0px 0;
+    color: #232323; 
+
+  }
+  
+ 
+  

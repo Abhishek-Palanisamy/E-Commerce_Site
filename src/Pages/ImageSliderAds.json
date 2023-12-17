@@ -1,0 +1,21 @@
+{
+    "slidess": [
+      {
+        "src": "src/Assests/Images/AgroFresh-Logo.png",
+        "alt": "Company Logo"
+      },
+      {
+        "src": "https://i.pinimg.com/originals/07/fe/84/07fe84c0f3d0c28601cd2de736ffb0e0.jpg",
+        "alt": "Image 1"
+      },
+      {
+        "src": "https://i.ytimg.com/vi/aAIUGE9j-rM/maxresdefault.jpg",
+        "alt": "Image 2"
+      },
+      {
+        "src": "https://offersinme.com/images/leaflet/2020/08/22/10094/10094-0-safari-hypermarket-daily-deals-22-august-2020.jpg",
+        "alt": "Image 3"
+      }
+      
+    ]
+  }
