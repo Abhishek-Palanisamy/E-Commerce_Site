@@ -1,0 +1,290 @@
+/* Default styles for larger screens */
+.hove {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cd {
+    border-radius: 16px;
+    margin-top: 20px;
+    height: 17rem;
+}
+
+.upper_data h4 {
+    font-size: 17px;
+    color: rgba(17, 17, 17, 0.849);
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+
+.upper_data span {
+    background-color: rgb(36, 150, 63);
+    border-radius: 6px;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 2px 1px;
+    width: 45px;
+}
+
+.lower_data h5 {
+    font-size: 15px;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+    color: rgba(17, 17, 17, 0.849);
+}
+
+.lower_data span {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    color: rgba(17, 17, 17, 0.849);
+}
+
+.extra {
+    border-bottom: 1px solid rgba(17, 17, 17, 0.449);
+}
+
+.last_data .limg {
+    width: 18px;
+}
+
+.last_data p {
+    font-size: 14px;
+    margin-top: 18px;
+    letter-spacing: 0.2px;
+    color: rgba(17, 17, 17, 0.849);
+}
+
+.last_data .laimg {
+    width: 45px;
+}
+
+.enclosure_description {
+    margin-left: 5%;
+}
+
+#ex4 .p1[data-count]:after {
+    position: absolute;
+    right: 10%;
+    top: 8%;
+    content: attr(data-count);
+    font-size: 40%;
+    padding: 0.2em;
+    border-radius: 50%;
+    line-height: 1em;
+    color: white;
+    background: rgba(255, 0, 0, 0.85);
+    text-align: center;
+    min-width: 18px;
+}
+
+#ex4 .fa-stack {
+    width: 1.5em;
+}
+
+@media (max-width: 780px) {
+  .cd {
+      height: 15rem; /* Adjust height for smaller screens */
+  }
+
+  .upper_data h4 {
+      font-size: 16px; /* Adjust font size for smaller screens */
+  }
+  .togglebtn {
+    margin-left: 10rem; /* Reset the margin */
+  }
+  .navigation {
+    width: 80%; /* Adjust the width of the navigation menu */
+  }
+  
+  .navigation-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Adjust the gap between navigation items */
+  }
+  /* Add more styles for 780px screens as needed */
+}
+
+/* Media query for screens with a maximum width of 420px */
+@media (max-width: 420px) {
+  .cd {
+      height: 12rem; /* Adjust height for smaller screens */
+  }
+
+  .upper_data h4 {
+      font-size: 14px; /* Adjust font size for smaller screens */
+  }
+  .togglebtn{
+    margin-left: 100%;
+  }
+  /* Add more styles for 420px screens as needed */
+}
+.togglebtn {
+  margin-right: 5px; /* Further adjust margin for smaller screens */
+}
+
+.navigation {
+  width: 90%; /* Further adjust the width of the navigation menu */
+}
+
+
+
+
+
+.mobile-menu {
+    display: none;
+  }
+  
+  .dropdown-icon {
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown-content a {
+    padding: 12px 16px;
+    display: block;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Media query for screens with a maximum width of 800px */
+  @media (min-width: 800px) {
+    .container {
+      display: none; /* Hide the original navigation links */
+    }
+  
+    .mobile-menu {
+      display: block;
+    }
+  }
+
+
+
+
+
+
+
+  nav{
+    padding: 5px 0 5px 0;
+    width: 100%;
+    background-color: #2B2B2B;
+}
+.nav-header1{
+    margin-left: 38%;
+    margin-right: 13%;
+}
+.nav-header{
+    display: flex;
+    gap: 2rem;
+    
+}
+.nav-bag{
+  padding-top: 10px;
+  text-align: center;
+}
+.nav-header2{
+    
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(215, 210, 210);
+    font-weight: 900; 
+}
+.menu-icon {
+    margin-left:-21rem;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+  
+  .line {
+    height: 0.2rem;
+    width: 2.5rem;
+    background-color: #b3b2b2;
+    margin-bottom: 0.6rem;
+  }
+  
+  .line-1, .line-3 {
+    width: 1.8rem;
+    transition: all 0.4s;
+  }
+.navigation {
+    position: fixed;
+    width: 13%;
+    height: 80%;
+    top: 4.7rem; 
+    left: 0;
+    background: linear-gradient(to top, rgb(61, 59, 69), rgba(34, 32, 41, 0.8)) center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: height 0.8s cubic-bezier(1, 0, 0, 1);
+    z-index: 2;
+  }
+  
+  .navigation-heading {
+    margin-top: 14%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+    color: #deaa86;
+    text-align: center;
+    
+  }
+  
+  .navigation-list {
+    list-style: none;
+    padding: 0;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+  }
+  .dropdown-list1 {
+    margin-top: 15%;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  
+  .navigation-item {
+      position: relative;
+  }
+  
+  .navigation-link {
+    color:white;
+    font-size: .8rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+  .copyright-sidebar{
+    color: rgb(189, 189, 189);
+    font-size: xx-small;
+  }
+  .dropdown{
+    margin-top: 1%;
+  }
+  .drop-list{
+    margin-left: 33%;
+    text-decoration: none;
+    color: azure;
+    list-style-type: none;
+    
+  }
