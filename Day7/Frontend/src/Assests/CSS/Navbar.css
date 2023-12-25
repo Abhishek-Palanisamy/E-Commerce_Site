@@ -1,0 +1,145 @@
+
+  .line {
+    height: 0.2rem;
+    width: 2.5rem;
+    background-color: #b3b2b2;
+    margin-bottom: 0.6rem;
+  }
+  
+  .line-1, .line-3 {
+    width: 1.8rem;
+    transition: all 0.4s;
+  }
+  
+.navigation {
+    position: fixed;
+    width: 14%;
+    height: 75%;
+    top: 3.6rem; 
+    left: 0;
+    background: linear-gradient(to top, rgb(61, 59, 69), rgba(34, 32, 41, 0.8)) center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: height 0.8s cubic-bezier(1, 0, 0, 1);
+    z-index: 2;
+  }
+  
+  .navigation-heading {
+    margin-top: 14%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+    color: #deaa86;
+    text-align: center;
+    
+  }
+  
+  .navigation-list {
+    list-style: none;
+    padding: 0;
+    height: 29rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+  }
+ 
+  
+  .navigation-item {
+      position: relative;
+  }
+  
+  .navigation-link {
+    color:white;
+    font-size: .8rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+
+  .navigation-link::before {
+    content: "";
+    width: 0;
+    height: 0.1rem;
+    background-color: #deaa86;
+    position: absolute;
+    top: 1rem;
+    left: -4rem;
+    transition: width 0.5s cubic-bezier(1, 0, 0, 1);
+  }
+  
+  .navigation-link::after {
+    content: "";
+    width: 0;
+    height: 0.1rem;
+    background-color: #deaa86;
+    position: absolute;
+    top: 1rem;
+    right: -4rem;
+    transition: width 0.5s cubic-bezier(1, 0, 0, 1);
+  }
+  
+  .navigation-link:hover {
+    color: #deaa86;
+  }
+  
+  .navigation-link:hover::before,
+  .navigation-link:hover::after {
+    width: 3rem;
+  }
+/* Responsive CSS for 780px */
+@media (max-width: 780px) {
+  .navigation {
+    width: 100%;
+    height: auto;
+    top: 3.6rem; 
+  }
+
+  .navigation-heading {
+    margin-top: 10%;
+  }
+
+  .navigation-list {
+    height: auto;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-around;
+  }
+
+  .navigation-item {
+    position: relative;
+  }
+
+  .navigation-link {
+    font-size: 1rem;
+  }
+
+  .navigation-link::before,
+  .navigation-link::after {
+    content: none;
+  }
+}
+
+/* Responsive CSS for 420px */
+@media (max-width: 420px) {
+  .navigation-heading {
+    font-size: 1.2rem;
+  }
+
+  .navigation-list {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .navigation-link {
+    font-size: 0.9rem;
+  }
+}
