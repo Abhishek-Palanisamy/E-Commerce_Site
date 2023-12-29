@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main_container{
+    border: 1px solid black;
+    width:20%;
+    margin-top: 10%;
+    margin-left: 40%;
+}
+.login-container{
+    padding:0px 0px 8px 8px;
+}
+.login-button{
+    margin-top: 6%;
+    margin-left: 40%;
+}
+.login-field{
+    padding: 5px 0 0 0;
+}
+.login-header{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 32%;
+}
+
+
+/* Signup css */
+.main_container1{
+    border: 1px solid black;
+    margin-left: 36%;
+    margin-top: 10%;
+    width: 30%;
+}
+.signup-header{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 30%;
+}
+.signup-container{
+    padding-left: 10%;
+}
+.signup-field{
+    padding: 5px 0 0 0;
+}
+.signup-button{
+    margin-top: 3%;
+    margin-left: 30%;
+    margin-bottom: 4%;
+}
+
+
+/*HomePage*/
+.sm{
+    margin-left: 5%;
+}
+.main_container2{
+    padding-bottom: 1%;
+}
+.homepage_container-enclosure{
+    margin-left: 3%;
+}
+.header-main{
+    margin-top: 1%;
+}
+.header-main1{
+    display: block;
+        font-size: 1.2em;
+        color:black;
+        font-weight: bold;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+.fruits_list{
+    padding: 4px;
+    margin-top: 5px;
+    margin-left: 6%;
+    width: 11.5%;
+}
+.fruits-container{
+    display: flex;
+}
+.fruit-name{
+    text-align: center;
+    font-size:large ;
+    display: block;
+    font-size: 1.17em;
+    color: black;
+    font-weight: bold; 
+    .strike{
+        text-decoration: line-through;
+        font-size:x-small;
+    }
+}
+.carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1350px;
+    height: 300px;
+    margin-left: 5%;
+    margin-top: 2px;
+    z-index: 1;
+  }
+  .slide {
+    margin-left: 5.5%;
+    border-radius: 0.5rem;
+    width: 86%;
+    height: 100%;
+  }
+ 
+
+
+
+  /*Fruits Description*/
+  .list-enclosure2{
+    display: flex;
+  }
+  .header-main2{
+    display: block;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-left: 1%;
+}
+.fruits_list2{
+    margin-top:1rem;
+    margin-left: 3%;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 16px;
+    padding: 1.2%;
+    box-shadow: 2px 2px 2px rgb(166, 165, 165);
+}
+.fruits-container2{
+    margin-left: 5%;
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+}
+.fruit-name2{
+    font-size:large ;
+    display: block;
+    font-size: 1.17em;
+    color: black;
+    font-weight: bold; 
+    .strike{
+        text-decoration: line-through;
+        font-size:x-small;
+    }
+}
+#shipping-icon{
+    font-size: smaller;
+    margin-left: 68%;
+    color: #c0bfbf;
+padding-top: 7%;    
+padding-bottom: 7%;
+}
+.timing{
+    margin-left: 1%;
+    font-size: small;
+}
+.addbtn{
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 3px 3px 3px #ababab;
+    font-size: large;
+    margin-top: 10%;
+    border-radius: 19px;
+    width: 100%;
+    padding: 3%;
+    background-color:white;
+    border-color: white;
+}
+.fresho{
+    color: #777777;
+    font-weight: 500;
+}
+.price{
+    margin-top: 7%;
+}
+.plussymbol{
+    margin-left: 65%;
+}
+
+
+
+
+
+  /*bootstrAP*/
+
+.hove{
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cd{
+    border-radius: 16px;
+    margin-top: 20px;
+    height: 17rem;
+}
+
+.upper_data h4{
+    font-size: 17px;
+    color: rgba(17,17,17,0.849);
+    letter-spacing: .5px;
+    font-weight: 700;
+}
+
+.upper_data span{
+    background-color: rgb(36,150,63);
+    border-radius: 6px;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 2px 1px;
+    width: 45px;
+}
+
+.lower_data h5{
+    font-size: 15px;
+letter-spacing: .4px;
+font-weight: 400;
+color:rgba(17,17,17,0.849) ;
+}
+
+.lower_data span{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: .4px;
+    color:rgba(17,17,17,0.849) ;
+}
+
+.extra{
+    border-bottom: 1px solid rgba(17,17,17,0.449);
+}
+
+.last_data .limg{
+    width: 18px;
+}
+
+.last_data p{
+    font-size: 14px;
+    margin-top: 18px;
+    letter-spacing: .2px;
+    color: rgba(17,17,17,0.849);
+}
+
+.last_data .laimg{
+    width: 45px;
+}
+.enclosure_description{
+    margin-left: 5%;
+}
+#ex4 .p1[data-count]:after{
+    position:absolute;
+    right:10%;
+    top:8%;
+    content: attr(data-count);
+    font-size:40%;
+    padding:.2em;
+    border-radius:50%;
+    line-height:1em;
+    color: white;
+    background:rgba(255,0,0,.85);
+    text-align:center;
+    min-width: 18px;
+  }
+
+  #ex4 .fa-stack{
+    width: 1.5em;
+  }
+
+@media (max-width:600px){
+    .con{
+        flex-direction: column;
+        align-items: center;
+    }
+    .last_data p{
+        font-size: 12px;
+    }
+   
+}
+
+
+
+/*HomePage Responsive*/
+
+
+/* Responsive styles for 720px */
+@media (max-width: 720px) {
+    .sm {
+      margin-left: 2%;
+    }
+  
+    .main_container2 {
+      padding-bottom: 0.5%;
+    }
+  
+    .homepage_container-enclosure {
+      margin-left: 2%;
+    }
+  
+    .header-main {
+      margin-top: 0.5%;
+    }
+  
+    .header-main1 {
+      margin-left: 2%;
+      margin-top: 0.5%;
+    }
+  
+    .fruits_list {
+      margin-left: 3%;
+      width: 15%;
+    }
+  
+
+  }
+  
+
+/* Responsive styles for 600px and below */
+@media (max-width: 400px) {
+    .sm {
+      margin-left: 1%;
+    }
+  
+    .main_container2 {
+      padding-bottom: 0.3%;
+    }
+  
+    .homepage_container-enclosure {
+      margin-left: 1%;
+    }
+  
+    .header-main {
+      margin-top: 0.3%;
+    }
+  
+    .header-main1 {
+      margin-left: 1%;
+      margin-top: 0.3%;
+      font-size: 1em;
+    }
+  
+    .fruits-container {
+      flex-direction: column;
+      align-items: center; /* Center items horizontally */
+      width: 100%; /* Occupy full width */
+    }
+  
+    .fruits_list {
+      margin-left: 0; /* Remove left margin */
+      width: 90%; /* Adjust the width based on your preference */
+      margin-bottom: 10px; /* Add some spacing between the stacked images */
+    }
+  
+    .fruit-name {
+      margin-right: 0; /* Remove right margin */
+      text-align: center; /* Center text */
+    }
+  }
+  
+    /* Responsive styles for 640px and below */
+@media (max-width: 640px) {
+    .sm {
+      margin-left: 1%;
+    }
+  
+    .main_container2 {
+      padding-bottom: 0.3%;
+    }
+  
+    .homepage_container-enclosure {
+      margin-left: 1%;
+    }
+  
+    .header-main {
+      margin-top: 0.3%;
+    }
+  
+    .header-main1 {
+      margin-left: 1%;
+      margin-top: 0.3%;
+      font-size: 1em;
+    }
+  
+    .fruits-container {
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+    .fruits_list {
+      width: 30%; /* Three images in a row, adjust as needed */
+      margin-bottom: 10px; /* Add some spacing between the images */
+    }
+  
+    
+  }
+  /* Responsive styles for 535px and below */
+  @media (max-width: 535px) {
+    .fruits-container {
+      flex-wrap: wrap; /* Allow items to wrap onto the next line */
+    }
+  
+    .fruits_list {
+      width: 40%; /* Two images in a row, adjust as needed */
+      margin-bottom: 10px; /* Add some spacing between the images */
+    }
+  
+    .fruit-name {
+      margin-left: 0; /* Reset left margin */
+      text-align: center; /* Center text */
+      margin-top: 5px; /* Add some space between image and text */
+    }
+  }
+  
